@@ -2,6 +2,9 @@
     "name": "apache-camel-extension-pack",
     "displayName": "Apache Camel Extension Pack",
     "description": "VS Code extensions for Apache Camel and Red Hat Fuse developers.",
+    "publisher": "camel-tooling",
+    "repository": "https://github.com/camel-tooling/vscode-camel-extension-pack",
+    "preview": true,
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.30.0"
@@ -10,10 +13,10 @@
         "Extension Packs"
     ],
     "extensionPack": [
-		"camel-tooling.vscode-apache-camel",
-		"pivotal.vscode-boot-dev-pack",
-		"redhat.project-initializer",
-		"redhat.vscode-openshift-connector",
-		"vscjava.vscode-java-pack"
+        "camel-tooling.vscode-apache-camel",
+        "pivotal.vscode-boot-dev-pack",
+        "redhat.project-initializer",
+        "redhat.vscode-openshift-connector",
+        "vscjava.vscode-java-pack"
     ]
 }

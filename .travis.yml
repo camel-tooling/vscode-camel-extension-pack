@@ -1,0 +1,21 @@
+language: node_js
+node_js: "10.15.0"
+os: linux
+before_install:
+  - 'export PATH=./node_modules/.bin:$PATH'
+  - 'npm install -g typescript'
+  - 'npm install -g vsce'
+install:
+  - 'npm install'
+  - 'vsce package'
+deploy:
+- provider: script
+  script: vsce publish -p $VSCODE_TOKEN
+  skip_cleanup: true
+  on:
+    repo: camel-tooling/vscode-camel-extension-pack
+    branch: master
+    tags: true
+cache:
+  directories:
+    - "node_modules"
