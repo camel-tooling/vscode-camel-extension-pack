@@ -6,6 +6,7 @@
     "repository": "https://github.com/camel-tooling/vscode-camel-extension-pack",
     "preview": true,
     "version": "0.0.1",
+	"license": "Apache-2.0",
     "engines": {
         "vscode": "^1.30.0"
     },
