@@ -1,0 +1,1 @@
+# vscode-camel-extension-pack
