@@ -1,16 +1,11 @@
-# README
+# VS Code Camel Extension Pack
 
-## This is the README for your extension pack "apache-camel-extension-pack"
+The goal is to gather all useful VS Code extensions for Apache Camel and Red Hat Fuse developers.
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+The following extensions will be installed:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+* [Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=camel-tooling.vscode-apache-camel)
+* [OpenShift Connector](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
+* [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+* [SpringBoot extension pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
+* [Project initializer by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.project-initializer)
