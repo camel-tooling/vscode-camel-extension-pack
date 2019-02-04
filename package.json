@@ -19,5 +19,11 @@
 		"redhat.project-initializer",
 		"redhat.vscode-openshift-connector",
 		"vscjava.vscode-java-pack"
+	],
+	"keywords": [
+		"Apache Camel",
+		"Camel",
+		"Fuse",
+		"Red Hat Fuse"
 	]
 }
