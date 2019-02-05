@@ -1,6 +1,6 @@
 {
 	"name": "apache-camel-extension-pack",
-	"displayName": "Apache Camel Extension Pack",
+	"displayName": "Extension Pack for Apache Camel",
 	"description": "VS Code extensions for Apache Camel and Red Hat Fuse developers.",
 	"icon": "icons/icon128.png",
 	"publisher": "camel-tooling",
