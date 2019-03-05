@@ -19,6 +19,7 @@
 	],
 	"extensionPack": [
 		"camel-tooling.vscode-apache-camel",
+		"camel-tooling.vscode-wsdl2rest",
 		"pivotal.vscode-boot-dev-pack",
 		"redhat.project-initializer",
 		"redhat.vscode-openshift-connector",
@@ -28,6 +29,7 @@
 		"Apache Camel",
 		"Camel",
 		"Fuse",
-		"Red Hat Fuse"
+		"Red Hat Fuse",
+		"wsdl"
 	]
 }
