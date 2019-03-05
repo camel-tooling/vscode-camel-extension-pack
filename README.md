@@ -9,3 +9,4 @@ The following extensions will be installed:
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 * [SpringBoot extension pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
 * [Project initializer by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.project-initializer)
+* [WSDL 2 Camel REST DSL](https://marketplace.visualstudio.com/items?itemName=camel-tooling.vscode-wsdl2rest)
