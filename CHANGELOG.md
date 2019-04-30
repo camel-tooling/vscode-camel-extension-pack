@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.3
+
+* Improve description in the Readme
+
 ## 0.0.2
 
 * Add [WSDL 2 Camel REST DSL](https://marketplace.visualstudio.com/items?itemName=camel-tooling.vscode-wsdl2rest)
