@@ -3,6 +3,7 @@
 ## 0.0.3
 
 * Improve description in the Readme
+* Move publisher to Red Hat to gain visibility
 
 ## 0.0.2
 
