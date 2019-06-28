@@ -3,7 +3,7 @@
 	"displayName": "Extension Pack for Apache Camel",
 	"description": "VS Code extensions for Apache Camel and Red Hat Fuse developers.",
 	"icon": "icons/icon128.png",
-	"publisher": "camel-tooling",
+	"publisher": "redhat",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/camel-tooling/vscode-camel-extension-pack.git"
