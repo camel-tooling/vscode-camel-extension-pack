@@ -2,6 +2,8 @@
 
 ## 0.0.4
 
+* Update naming approved by Red Hat legal
+
 ## 0.0.3
 
 * Improve description in the Readme
