@@ -2,6 +2,8 @@
 
 ## 0.0.5
 
+* Fix wsdl2rest extension reference
+
 ## 0.0.4
 
 * Update naming approved by Red Hat legal
