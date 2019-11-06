@@ -9,5 +9,6 @@ This extension pack installs the following Visual Studio Code extensions that ar
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack). It provides a large set of tooling for Java applications.
 * [SpringBoot extension pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack) It provides a large set of tooling for SpringBoot applications.
 * [OpenShift Connector](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector). It provides a large set of tooling to interact with an OpenShift instance.
+* [XML Language Support](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml). It provides tooling for XML files.
 * [WSDL to Camel Rest DSL](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-wsdl2rest) It allows to kickstart a project from a wsdl.
 ![WSDL to Camel Rest DSL](./images/wsdl2rest.gif)
