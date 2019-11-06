@@ -3,6 +3,7 @@
 ## 0.0.5
 
 * Fix wsdl2rest extension reference
+* Include XML language support
 
 ## 0.0.4
 
