@@ -6,6 +6,7 @@ This extension pack installs the following Visual Studio Code extensions that ar
 ![Create project](./images/CreateProjectFromTopLevelCommand.gif)
 * [Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel). It provides help for textual edition of Camel files (Completion, Validation, Navigation) For instance, see completion with Camel XML dsl:
 ![completion for xml dsl](./images/completion.gif)
+ [Tooling for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk). It provides support for Apache Camel K, a lightweight integration platform, born on Kubernetes, with serverless superpowers.
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack). It provides a large set of tooling for Java applications.
 * [SpringBoot extension pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack) It provides a large set of tooling for SpringBoot applications.
 * [OpenShift Connector](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector). It provides a large set of tooling to interact with an OpenShift instance.
