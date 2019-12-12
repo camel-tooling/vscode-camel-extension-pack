@@ -2,6 +2,8 @@
 
 ## 0.0.6
 
+* Add [Tooling for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk)
+
 ## 0.0.5
 
 * Fix wsdl2rest extension reference

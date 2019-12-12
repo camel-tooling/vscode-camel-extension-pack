@@ -24,7 +24,8 @@
 		"redhat.project-initializer",
 		"redhat.vscode-openshift-connector",
 		"redhat.vscode-xml",
-		"vscjava.vscode-java-pack"
+		"vscjava.vscode-java-pack",
+		"redhat.vscode-camelk"
 	],
 	"keywords": [
 		"Apache Camel",
