@@ -13,3 +13,4 @@ This extension pack installs the following Visual Studio Code extensions that ar
 * [XML Language Support](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml). It provides tooling for XML files.
 * [WSDL to Camel Rest DSL](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-wsdl2rest) It allows to kickstart a project from a wsdl.
 ![WSDL to Camel Rest DSL](./images/wsdl2rest.gif)
+* [AtlasMap Data Transformation editor](https://marketplace.visualstudio.com/items?itemName=redhat.atlasmap-viewer). It provides a graphical editor for Data Transformation based on the camel-atlasmap component.

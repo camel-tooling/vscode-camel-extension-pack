@@ -3,6 +3,7 @@
 ## 0.0.6
 
 * Add [Tooling for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk)
+* Add [AtlasMap Data Transformation editor](https://marketplace.visualstudio.com/items?itemName=redhat.atlasmap-viewer)
 
 ## 0.0.5
 

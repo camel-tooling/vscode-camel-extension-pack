@@ -25,7 +25,8 @@
 		"redhat.vscode-openshift-connector",
 		"redhat.vscode-xml",
 		"vscjava.vscode-java-pack",
-		"redhat.vscode-camelk"
+		"redhat.vscode-camelk",
+		"redhat.atlasmap-viewer"
 	],
 	"keywords": [
 		"Apache Camel",
