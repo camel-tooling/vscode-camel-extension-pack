@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.7
+
 ## 0.0.6
 
 * Add [Tooling for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk)
