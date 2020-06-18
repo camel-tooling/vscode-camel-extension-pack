@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.8
+
 ## 0.0.7
 
 * Add [Didact tutorial](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-didact)
