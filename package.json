@@ -26,7 +26,8 @@
 		"redhat.vscode-xml",
 		"vscjava.vscode-java-pack",
 		"redhat.vscode-camelk",
-		"redhat.atlasmap-viewer"
+		"redhat.atlasmap-viewer",
+		"redhat.vscode-didact"
 	],
 	"keywords": [
 		"Apache Camel",
