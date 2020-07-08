@@ -7,7 +7,7 @@ node('rhel7'){
 	}
 
 	stage('Install requirements') {
-		def nodeHome = tool 'nodejs-8.11.1'
+		def nodeHome = tool 'nodejs-10.9.0'
 		env.PATH="${env.PATH}:${nodeHome}/bin"
 		sh "npm install -g typescript vsce"
 	}
@@ -52,6 +52,11 @@ node('rhel7'){
             stage "Promote the build to stable"
             def vsix = findFiles(glob: '**.vsix')
             sh "rsync -Pzrlt --rsh=ssh --protocol=28 ${vsix[0].path} ${UPLOAD_LOCATION}/stable/vscode-camel-extension-pack/"
+            
+            sh "npm install -g ovsx"
+		    withCredentials([[$class: 'StringBinding', credentialsId: 'open-vsx-access-token', variable: 'OVSX_TOKEN']]) {
+			    sh 'ovsx publish -p ${OVSX_TOKEN}' + " ${vsix[0].path}"
+			}
         }
 	}
 }
