@@ -2,6 +2,8 @@
 
 ## 0.0.8
 
+* Setup Jenkins CI to publish on https://open-vsx.org/ too on each release.
+
 ## 0.0.7
 
 * Add [Didact tutorial](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-didact)
