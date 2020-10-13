@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.9
+
 ## 0.0.8
 
 * Setup Jenkins CI to publish on https://open-vsx.org/ too on each release.
