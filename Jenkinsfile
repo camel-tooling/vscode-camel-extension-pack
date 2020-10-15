@@ -3,7 +3,7 @@
 node('rhel7'){
 	stage('Checkout repo') {
 		deleteDir()
-		git url: 'https://github.com/camel-tooling/vscode-camel-extension-pack/'
+		git url: 'https://github.com/camel-tooling/vscode-camel-extension-pack.git'
 	}
 
 	stage('Install requirements') {
