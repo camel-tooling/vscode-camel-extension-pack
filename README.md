@@ -15,3 +15,5 @@ This extension pack installs the following Visual Studio Code extensions that ar
 ![WSDL to Camel Rest DSL](./images/wsdl2rest.gif)
 * [AtlasMap Data Transformation editor](https://marketplace.visualstudio.com/items?itemName=redhat.atlasmap-viewer). It provides a graphical editor for Data Transformation based on the camel-atlasmap component.
 * [Didact tutorial](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-didact). It allows to have step by step tutorial integrated in VS Code.
+
+dummy
