@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/camel-tooling/vscode-camel-extension-pack)
+
 # VS Code Camel Extension Pack
 
 This extension pack installs the following Visual Studio Code extensions that are useful to Apache Camel and Red Hat Fuse developers:
