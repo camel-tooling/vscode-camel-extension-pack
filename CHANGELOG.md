@@ -2,6 +2,8 @@
 
 ## 0.0.10
 
+* Remove VS Code wsdl2rest as this extension is now deprecated
+
 ## 0.0.8
 
 * Setup Jenkins CI to publish on https://open-vsx.org/ too on each release.
