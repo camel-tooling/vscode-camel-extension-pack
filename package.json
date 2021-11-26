@@ -19,7 +19,6 @@
 	],
 	"extensionPack": [
 		"redhat.vscode-apache-camel",
-		"redhat.vscode-wsdl2rest",
 		"pivotal.vscode-boot-dev-pack",
 		"redhat.project-initializer",
 		"redhat.vscode-openshift-connector",
