@@ -13,17 +13,17 @@ jobs:
   build:
     working_directory: ~/vscode-camel-extension-pack
     docker:
-      - image: cimg/node:lts
+      - image: cimg/node:14.18
     steps:
       - checkout
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
           name: install-typescript
-          command: sudo npm install -g typescript
+          command: npm install --prefix=$HOME/.local -g typescript
       - run:
           name: install-vsce
-          command: sudo npm install -g vsce
+          command: npm install --prefix=$HOME/.local -g vsce
       - run:
           name: npm-install
           command: npm install
