@@ -3,6 +3,7 @@
 ## 0.0.11
 
 * Remove wsdl as keyword of the extension
+* Add keyword to help discovery with Camel yaml dsl
 
 ## 0.0.10
 
