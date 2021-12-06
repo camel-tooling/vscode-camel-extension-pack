@@ -2,6 +2,8 @@
 
 ## 0.0.11
 
+* Remove wsdl as keyword of the extension
+
 ## 0.0.10
 
 * Remove VS Code wsdl2rest as this extension is now deprecated
