@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.12
+
 ## 0.0.11
 
 * Remove wsdl as keyword of the extension
