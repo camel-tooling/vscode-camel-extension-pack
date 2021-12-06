@@ -32,6 +32,7 @@
 		"Apache Camel",
 		"Camel",
 		"Fuse",
-		"Red Hat Fuse"
+		"Red Hat Fuse",
+		"Camel Yaml"
 	]
 }
