@@ -2,6 +2,8 @@
 
 ## 0.0.12
 
+* Add [Debug adapter for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-debug-adapter-apache-camel) extension
+
 ## 0.0.11
 
 * Remove wsdl as keyword of the extension
