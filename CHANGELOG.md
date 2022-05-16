@@ -2,6 +2,8 @@
 
 ## 0.0.13
 
+* Remove no more maintained Didact extension
+
 ## 0.0.12
 
 * Add [Debug adapter for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-debug-adapter-apache-camel) extension

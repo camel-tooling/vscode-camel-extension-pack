@@ -15,4 +15,3 @@ This extension pack installs the following Visual Studio Code extensions that ar
 * [OpenShift Connector](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector). It provides a large set of tooling to interact with an OpenShift instance.
 * [XML Language Support](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml). It provides tooling for XML files.
 * [AtlasMap Data Transformation editor](https://marketplace.visualstudio.com/items?itemName=redhat.atlasmap-viewer). It provides a graphical editor for Data Transformation based on the camel-atlasmap component.
-* [Didact tutorial](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-didact). It allows to have step by step tutorial integrated in VS Code.
