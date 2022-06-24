@@ -13,7 +13,7 @@ jobs:
   build:
     working_directory: ~/vscode-camel-extension-pack
     docker:
-      - image: cimg/node:14.18
+      - image: cimg/node:16.15
     steps:
       - checkout
       - restore_cache:
