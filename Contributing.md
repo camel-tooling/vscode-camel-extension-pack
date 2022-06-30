@@ -2,7 +2,7 @@
 
 - Check that someone listed as _submitter_ in Jenkinsfile is available
 - Create a tag and push it
-- Start build [on Jenkins CI](https://dev-platform-jenkins.rhev-ci-vms.eng.rdu2.redhat.com/view/VS%20Code/job/vscode-apache-camel-extension-pack-release/) with _publishToMarketPlace_ parameter checked
+- Start build [on Jenkins CI](https://studio-jenkins-csb-codeready.apps.ocp-c1.prod.psi.redhat.com/job/Fuse/job/VSCode/job/vscode-camel-lsp-extension-pack-release/) with _publishToMarketPlace_ parameter checked
 - Wait the build is waiting on step _Publish to Marketplace_
 - The vsix is downloadable and can be tested a last time before publishing it to public
 - Ensure you are logged in
