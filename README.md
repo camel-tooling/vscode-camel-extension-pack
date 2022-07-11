@@ -15,3 +15,5 @@ This extension pack installs the following Visual Studio Code extensions that ar
 * [OpenShift Connector](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector). It provides a large set of tooling to interact with an OpenShift instance.
 * [XML Language Support](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml). It provides tooling for XML files.
 * [AtlasMap Data Transformation editor](https://marketplace.visualstudio.com/items?itemName=redhat.atlasmap-viewer). It provides a graphical editor for Data Transformation based on the camel-atlasmap component.
+* [Tools for Microprofile](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile). It provides support for the development of MicroProfile®-based applications.
+* [Quarkus tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus). It provides Quarkus and MicroProfile development by extending Visual Studio Code extension for MicroProfile with Quarkus features.
