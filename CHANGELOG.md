@@ -2,6 +2,8 @@
 
 ## 1.0.0
 
+- Release version of the extension pack, with developer support from Red Hat.
+
 ## 0.0.14
 
 * Adds [Tools for Microprofile](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile) and [Quarkus tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus) extensions.
