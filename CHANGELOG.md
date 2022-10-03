@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.15
+
 ## 0.0.14
 
 * Adds [Tools for Microprofile](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile) and [Quarkus tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus) extensions.
