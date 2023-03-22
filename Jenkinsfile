@@ -10,7 +10,7 @@ node('rhel8'){
 	stage('Install requirements') {
 		def nodeHome = tool 'nodejs-lts'
 		env.PATH="${env.PATH}:${nodeHome}/bin"
-		sh "npm install -g typescript vsce"
+		sh "npm install -g typescript @vscode/vsce"
 	}
 
 	stage('Build') {
