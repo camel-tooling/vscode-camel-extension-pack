@@ -28,7 +28,8 @@
 		"redhat.atlasmap-viewer",
 		"redhat.vscode-debug-adapter-apache-camel",
 		"redhat.vscode-microprofile",
-		"redhat.vscode-quarkus"
+		"redhat.vscode-quarkus",
+		"redhat.vscode-kaoto"
 	],
 	"keywords": [
 		"Apache Camel",
