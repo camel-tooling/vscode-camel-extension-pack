@@ -4,8 +4,6 @@
 
 This extension pack installs the following Visual Studio Code extensions that are useful to Apache Camel and Red Hat Fuse developers:
 
-* [Project initializer by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.project-initializer). It allows to create Apache Camel or Red Hat Fuse projects by selecting a mission.
-![Create project](./images/CreateProjectFromTopLevelCommand.gif)
 * [Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel). It provides help for textual edition of Camel files (Completion, Validation, Navigation) For instance, see completion with Camel XML dsl:
 ![completion for xml dsl](./images/completion.gif)
 * [Tooling for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk). It provides support for Apache Camel K, a lightweight integration platform, born on Kubernetes, with serverless superpowers.
@@ -18,3 +16,5 @@ This extension pack installs the following Visual Studio Code extensions that ar
 * [AtlasMap Data Transformation editor](https://marketplace.visualstudio.com/items?itemName=redhat.atlasmap-viewer). It provides a graphical editor for Data Transformation based on the camel-atlasmap component.
 * [Tools for Microprofile](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile). It provides support for the development of MicroProfile®-based applications.
 * [Quarkus tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus). It provides Quarkus and MicroProfile development by extending Visual Studio Code extension for MicroProfile with Quarkus features.
+* *Deprecated* [Project initializer by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.project-initializer). It allows to create Apache Camel or Red Hat Fuse projects by selecting a mission.
+![Create project](./images/CreateProjectFromTopLevelCommand.gif)
