@@ -3,6 +3,7 @@
 ## 0.0.15
 
 * Add [Kaoto](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-kaoto) extension
+* Mention deprecation of Project Initializer
 
 ## 0.0.14
 
