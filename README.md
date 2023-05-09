@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/camel-tooling/vscode-camel-extension-pack)
+[![Main CI](https://img.shields.io/github/actions/workflow/status/camel-tooling/vscode-camel-extension-pack/main.yml?style=for-the-badge)](https://github.com/camel-tooling/vscode-camel-extension-pack/actions/workflows/main.yml)
 
 # VS Code Camel Extension Pack
 
