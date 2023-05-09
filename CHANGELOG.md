@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.16
+
+* Remove deprecated Project Initializer extension
+
 ## 0.0.15
 
 * Add [Kaoto](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-kaoto) extension

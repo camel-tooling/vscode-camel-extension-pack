@@ -16,5 +16,3 @@ This extension pack installs the following Visual Studio Code extensions that ar
 * [AtlasMap Data Transformation editor](https://marketplace.visualstudio.com/items?itemName=redhat.atlasmap-viewer). It provides a graphical editor for Data Transformation based on the camel-atlasmap component.
 * [Tools for Microprofile](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile). It provides support for the development of MicroProfile®-based applications.
 * [Quarkus tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus). It provides Quarkus and MicroProfile development by extending Visual Studio Code extension for MicroProfile with Quarkus features.
-* *Deprecated* [Project initializer by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.project-initializer). It allows to create Apache Camel or Red Hat Fuse projects by selecting a mission.
-![Create project](./images/CreateProjectFromTopLevelCommand.gif)
