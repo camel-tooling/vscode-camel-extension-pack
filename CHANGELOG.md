@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.17
+
 ## 0.0.16
 
 * Remove deprecated Project Initializer extension
