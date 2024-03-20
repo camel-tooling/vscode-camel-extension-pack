@@ -21,7 +21,6 @@ This is the extension pack that brings common developer experience for <a href="
 - 📦 [Debug Adapter for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-debug-adapter-apache-camel)
 - 📦 [Tooling for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk)
 - 📦 [Kaoto](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-kaoto)
-- 📦 [AtlasMap Data Transformation editor](https://marketplace.visualstudio.com/items?itemName=redhat.atlasmap-viewer)
 - 📦 [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 - 📦 [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
 - 📦 [OpenShift Toolkit](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
@@ -69,16 +68,6 @@ This is the extension that provides support for [Apache Camel K](https://camel.a
 </p>
 
 This extension brings an integration editor to create and deploy workflows in a visual, low-code way; with developer-friendly features like a code editor and deployments to the cloud. Kaoto augments user productivity via Apache Camel, it accelerates new users and helps experienced developers.
-
-#### AtlasMap Data Transformation editor
-
-<p align="left">
-  <a href="https://github.com/jboss-fuse/vscode-atlasmap#features">Features</a> •
-  <a href="https://github.com/jboss-fuse/vscode-atlasmap#prerequisites">Requirements</a> •
-  <a href="https://docs.atlasmap.io">Documentation</a>
-</p>
-
-This extension provides a graphical editor for Data Transformation based on the `camel-atlasmap` component.
 
 #### Extension Pack for Java
 

@@ -24,7 +24,6 @@
 		"redhat.vscode-xml",
 		"vscjava.vscode-java-pack",
 		"redhat.vscode-camelk",
-		"redhat.atlasmap-viewer",
 		"redhat.vscode-debug-adapter-apache-camel",
 		"redhat.vscode-microprofile",
 		"redhat.vscode-quarkus",
