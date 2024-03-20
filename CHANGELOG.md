@@ -2,6 +2,8 @@
 
 ## 0.0.17
 
+* Remove deprecated AtlasMap extension
+
 ## 0.0.16
 
 * Remove deprecated Project Initializer extension
