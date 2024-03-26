@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.18
+
 ## 0.0.17
 
 * Remove deprecated AtlasMap extension
