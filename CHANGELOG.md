@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.19
+
 ## 0.0.18
 
 * Update id for the Spring Boot extension pack
