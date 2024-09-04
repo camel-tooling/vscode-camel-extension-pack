@@ -2,6 +2,8 @@
 
 ## 0.0.18
 
+* Update id for the Spring Boot extension pack
+
 ## 0.0.17
 
 * Remove deprecated AtlasMap extension

@@ -19,7 +19,7 @@
 	],
 	"extensionPack": [
 		"redhat.vscode-apache-camel",
-		"pivotal.vscode-boot-dev-pack",
+		"vmware.vscode-boot-dev-pack",
 		"redhat.vscode-openshift-connector",
 		"redhat.vscode-xml",
 		"vscjava.vscode-java-pack",
