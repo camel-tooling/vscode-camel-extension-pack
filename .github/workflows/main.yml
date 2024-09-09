@@ -14,16 +14,17 @@ concurrency:
 jobs:
   main:
     runs-on: ubuntu-latest
+    env:
+      CODE_VERSION: max
+      TEST_RESOURCES: test-resources
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
+      - name: Setup NodeJS 20
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
 
       - name: Setup dependencies
@@ -31,8 +32,25 @@ jobs:
           npm install -g typescript @vscode/vsce
           vsce --version
 
-      - name: npm-install
-        run: npm install
+      - name: npm-ci
+        run: npm ci
 
-      - name: vsce-package
-        run: vsce package
+      - name: npm-compile
+        run: npm run compile
+
+      - name: UI test
+        run: xvfb-run --auto-servernum npm run ui-test
+
+      - name: Store UI test log
+        uses: actions/upload-artifact@v4
+        if: failure() || cancelled()
+        with:
+          name: uitest-logs
+          path: test-resources/settings/logs/*
+
+      - name: Store UI Test screenshots
+        uses: actions/upload-artifact@v4
+        if: failure() || cancelled()
+        with:
+          name: uitest-screenshots
+          path: test-resources/screenshots/*.png
