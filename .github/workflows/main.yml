@@ -14,12 +14,27 @@ concurrency:
 jobs:
   main:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     env:
       CODE_VERSION: max
       TEST_RESOURCES: test-resources
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      - name: Install JBang (ubuntu, macOS)
+        run: |
+          curl -Ls https://sh.jbang.dev | bash -s - app setup
+          echo "$HOME/.jbang/bin" >> $GITHUB_PATH
+      
+      - name: Setup JBang (trusted sources)
+        run: jbang trust add https://github.com/apache/
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: 17
+          distribution: 'temurin'
 
       - name: Setup NodeJS 20
         uses: actions/setup-node@v4
