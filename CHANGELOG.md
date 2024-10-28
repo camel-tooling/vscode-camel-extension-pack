@@ -2,6 +2,11 @@
 
 ## 0.0.19
 
+* Remove VS Code Tooling for Apache Camel K:
+    * Deploy of standalone files have been migrated to VS Code Debug adapter. It now relies on Camel JBang Kubernetes instead of Camel K.
+    * Java standalone support has not been migrated yet but it can be manually configured using VS Code JBang (not included in the extension pack). See [Camel documentation](https://camel.apache.org/manual/camel-jbang.html#_editing_code_using_vscode_or_idea_editors).
+* Add VS Code Yaml and Kubernetes extensions which were previously pulled by VS Code Camel K
+
 ## 0.0.18
 
 * Update id for the Spring Boot extension pack
