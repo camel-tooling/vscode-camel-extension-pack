@@ -19,11 +19,12 @@ This is the extension pack that brings common developer experience for <a href="
 
 - 📦 [Language Support for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-apache-camel)
 - 📦 [Debug Adapter for Apache Camel](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-debug-adapter-apache-camel)
-- 📦 [Tooling for Apache Camel K](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-camelk)
 - 📦 [Kaoto](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-kaoto)
 - 📦 [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 - 📦 [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack)
 - 📦 [OpenShift Toolkit](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
+- 📦 [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
+- 📦 [Yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - 📦 [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 - 📦 [Tools for MicroProfile](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile)
 - 📦 [Quarkus](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus)
@@ -47,16 +48,6 @@ This is the extension that adds language support for Apache Camel for XML, Java 
 </p>
 
 This is the extension that adds Camel Debugger power by attaching to a running Camel route written in Java, Yaml or XML DSL.
-
-#### Tooling for Apache Camel K
-
-<p align="left">
-  <a href="https://github.com/camel-tooling/vscode-camelk#features">Features</a> •
-  <a href="https://github.com/camel-tooling/vscode-camelk#requirements">Requirements</a> •
-  <a href="https://camel-tooling.github.io/vscode-camelk/">Documentation</a>
-</p>
-
-This is the extension that provides support for [Apache Camel K](https://camel.apache.org/camel-k/1.12.x/index.html), a lightweight integration platform, born on Kubernetes, with serverless superpowers.
 
 #### Kaoto
 
@@ -98,6 +89,24 @@ Collection of extensions for developing and deploying Spring Boot Application.
 
 The OpenShift Toolkit extends Visual Studio Code to provide all of the power and convenience of IDEs for developing cloud-native Kubernetes applications, without leaving the comfort of your IDE. For a developer to run the local code on an OpenShift instance, test & debug it and deploy it on production without worrying about the complexities around different K8s tools.
 
+#### Kubernetes
+
+<p align="left">
+  <a href="https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools?tab=readme-ov-file#visual-studio-code-kubernetes-tools">Overview</a> •
+  <a href="https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools?tab=readme-ov-file#commands-and-features">Features</a> •
+  <a href="https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools?tab=readme-ov-file#getting-started-with-the-extension">Getting Started</a>
+</p>
+
+The extension for developers building applications to run in Kubernetes clusters and for DevOps staff troubleshooting Kubernetes applications.
+
+#### Yaml
+
+<p align="left">
+  <a href="https://github.com/redhat-developer/vscode-yaml#features">Features</a> •
+</p>
+
+This extension provides comprehensive YAML Language support, via the [Yaml language server](https://github.com/redhat-developer/yaml-language-server), with built-in Kubernetes syntax support.
+
 #### XML
 
 <p align="left">
@@ -134,5 +143,5 @@ Something is not working properly? In that case, feel free to [open issues, add 
 
 ### Get Involved
 
-If you'd like to help us get better, we appriciate it!
+If you'd like to help us get better, we appreciate it!
 Check out our [Contribution Guide](Contributing.md) on how to do that.
