@@ -61,7 +61,7 @@
 		"@types/mocha": "^10.0.9",
 		"chai": "^4.5.0",
 		"glob": "^11.0.0",
-		"mocha": "^10.7.3",
+		"mocha": "^10.8.1",
 		"vscode-uitests-tooling": "^4.1.9"
 	}
 }
