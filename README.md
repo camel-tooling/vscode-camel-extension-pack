@@ -99,13 +99,13 @@ The OpenShift Toolkit extends Visual Studio Code to provide all of the power and
 
 The extension for developers building applications to run in Kubernetes clusters and for DevOps staff troubleshooting Kubernetes applications.
 
-#### Yaml
+#### YAML
 
 <p align="left">
-  <a href="https://github.com/redhat-developer/vscode-yaml#features">Features</a> •
+  <a href="https://github.com/redhat-developer/vscode-yaml#features">Features</a>
 </p>
 
-This extension provides comprehensive YAML Language support, via the [Yaml language server](https://github.com/redhat-developer/yaml-language-server), with built-in Kubernetes syntax support.
+This extension provides comprehensive YAML Language support, via the [YAML language server](https://github.com/redhat-developer/yaml-language-server), with built-in Kubernetes syntax support.
 
 #### XML
 
