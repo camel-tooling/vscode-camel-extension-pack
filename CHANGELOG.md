@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.0.20
+
 ## 0.0.19
 
 * Remove VS Code Tooling for Apache Camel K:
