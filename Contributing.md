@@ -2,7 +2,7 @@
 
 - Check that someone listed as _submitter_ in Jenkinsfile is available
 - Create a tag and push it
-- Start build [on Jenkins CI](https://studio-jenkins-csb-codeready.apps.ocp-c1.prod.psi.redhat.com/job/Fuse/job/VSCode/job/vscode-camel-lsp-extension-pack-release/) with _publishToMarketPlace_ parameter checked. Ensure you are logged in.
+- Start build [on Jenkins CI](https://master-jenkins-csb-fusetools-qe.apps.ocp-c1.prod.psi.redhat.com/view/VS%20Code%20-%20release/job/vscode/job/eng/job/vscode-camel-lsp-extension-pack-release/) with _publishToMarketPlace_ parameter checked. Ensure you are logged in.
 - Wait the build is waiting on step _Publish to Marketplace_
 - The vsix is downloadable and can be tested a last time before publishing it to public. You can get it from the [FTP server](https://download.jboss.org/jbosstools/vscode/snapshots/). You can later install it from VSCode -> Extensions -> "..." at the top -> Install from VSIX
 - Go to the console log of the build and click "Proceed"
