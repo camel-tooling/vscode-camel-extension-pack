@@ -17,13 +17,15 @@
 import { expect } from 'chai';
 import * as fs from 'fs';
 import {
+    ActivityBar,
     after,
     EditorView,
     error,
     ExtensionsViewItem,
-    Marketplace,
-    repeat
-} from 'vscode-uitests-tooling';
+    ViewControl,
+    VSBrowser,
+    WebDriver
+} from 'vscode-extension-tester';
 import { openExtensionPage } from '../utils'
 
 describe('Extensions installed', function () {
@@ -32,36 +34,35 @@ describe('Extensions installed', function () {
     const extensionMetadata: { [key: string]: any } = JSON.parse(fs.readFileSync('package.json', {
         encoding: 'utf-8'
     }));
-    let marketplace: Marketplace;
     let item: ExtensionsViewItem;
+    let driver: WebDriver;
 
     extensionMetadata['extensionPackTitles'].forEach((extensionId: string) => {
 
         before(async () => {
-            [marketplace, item] = await openExtensionPage(extensionId, this.timeout());
+            driver = VSBrowser.instance.driver;
+            item = await openExtensionPage(driver, extensionId, this.timeout());
         });
 
         after(async () => {
             this.timeout(5000);
-            await marketplace.close();
+            const view = await new ActivityBar().getViewControl("Extensions") as ViewControl;
+            await view.closeView();
             await new EditorView().closeAllEditors();
         });
 
         it(`'${extensionId}' is installed`, async function () {
-            const testState = await repeat(async () => {
+            const testState = await driver.wait(async () => {
                 try {
                     return await item.isInstalled();
                 } catch (e) {
                     if (e instanceof error.StaleElementReferenceError) {
-                        [marketplace, item] = await openExtensionPage(extensionId, this.timeout());
+                        item = await openExtensionPage(driver, extensionId, this.timeout());
                         return undefined;
                     }
                     throw e;
                 }
-            }, {
-                timeout: this.timeout(),
-                message: 'Page was not rendered well'
-            });
+            }, this.timeout(), 'Page was not rendered well');
             expect(testState).to.be.true;
         });
     });

@@ -18,7 +18,7 @@ import * as os from 'os';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as glob from 'glob';
-import { ExTester, ReleaseQuality } from 'vscode-uitests-tooling';
+import { ExTester, ReleaseQuality } from 'vscode-extension-tester';
 
 export const storageFolder = process.env.TEST_RESOURCES ? process.env.TEST_RESOURCES : `${os.tmpdir()}/test-resources`;;
 export const extensionsFolder = path.join(storageFolder, 'test-extensions');

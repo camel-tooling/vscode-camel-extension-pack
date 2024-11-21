@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 import * as path from 'path';
-import { BottomBarPanel, By, DebugToolbar, EditorView, error, ExtensionsViewItem, InputBox, Marketplace, repeat, TerminalView, TextEditor, until, VSBrowser, WebDriver, Workbench } from 'vscode-uitests-tooling';
+import { ActivityBar, BottomBarPanel, By, DebugToolbar, EditorView, error, ExtensionsViewItem, ExtensionsViewSection, InputBox, TextEditor, until, VSBrowser, WebDriver, Workbench } from 'vscode-extension-tester';
 import * as fs from 'fs-extra';
 import { DEBUGGER_ATTACHED_MESSAGE } from './variables';
 
@@ -26,13 +26,13 @@ import { DEBUGGER_ATTACHED_MESSAGE } from './variables';
  * @param timeout Timeout in ms.
  * @returns Marketplace and ExtensionViewItem object tied with the extension.
  */
-export async function openExtensionPage(name: string, timeout: number): Promise<[Marketplace, ExtensionsViewItem]> {
-    let marketplace: Marketplace;
+export async function openExtensionPage(driver: WebDriver, name: string, timeout: number): Promise<ExtensionsViewItem> {
     let item: ExtensionsViewItem;
-    await repeat(async () => {
+    await driver.wait(async () => {
         try {
-            marketplace = await Marketplace.open(timeout);
-            item = await marketplace.findExtension(`@installed ${name}`);
+            const extensionsView = await (await new ActivityBar().getViewControl('Extensions'))?.openView();
+            const marketplace = (await extensionsView?.getContent().getSection('Installed')) as ExtensionsViewSection;
+            item = await marketplace.findItem(`@installed ${name}`) as ExtensionsViewItem;
             return true;
         } catch (e) {
             if (e instanceof error.StaleElementReferenceError) {
@@ -42,11 +42,8 @@ export async function openExtensionPage(name: string, timeout: number): Promise<
                 };
             }
         }
-    }, {
-        timeout: timeout,
-        message: 'Page was not rendered'
-    });
-    return [marketplace!, item!];
+    }, timeout, 'Page was not rendered');
+    return item!;
 }
 
 /**
