@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 import * as path from 'path';
-import { ActivityBar, BottomBarPanel, Breakpoint, DebugView, DefaultWait, EditorView, InputBox, SideBarView, TextEditor, VSBrowser, WebDriver } from "vscode-uitests-tooling";
+import { ActivityBar, BottomBarPanel, Breakpoint, DebugView, EditorView, InputBox, SideBarView, TextEditor, VSBrowser, WebDriver } from "vscode-extension-tester";
 import { assert } from 'chai';
 import { addNewItemToRawJson, clearTerminal, deleteFolderContents, disconnectDebugger, executeCommand, killTerminal, waitUntilEditorIsOpened, waitUntilTerminalHasText } from '../utils';
 import { DEMO_FILE, QUARKUS_ATTACH_DEBUGGER, QUARKUS_CREATE_COMMAND, QUARKUS_DIR, QUARKUS_PROJECT_FOLDER, SPRINGBOOT_ATTACH_DEBUGGER, SPRINGBOOT_CREATE_COMMAND, SPRINGBOOT_DIR, SPRINGBOOT_PROJECT_FOLDER } from '../variables';
@@ -117,7 +117,7 @@ describe('Remote debug on OpenShift', function () {
         driver = VSBrowser.instance.driver
         await VSBrowser.instance.openResources(directoryPath);
         await deleteFolderContents(directoryPath);
-        await (await new ActivityBar().getViewControl('Explorer')).openView();
+        await (await new ActivityBar().getViewControl('Explorer'))?.openView();
         await new SideBarView().getContent().getSection(directory);
         await workaround(driver);
     }
@@ -129,7 +129,7 @@ describe('Remote debug on OpenShift', function () {
      */
     async function cleanUp(directoryPath: string): Promise<void> {
         await disconnectDebugger(driver);
-        await (await new ActivityBar().getViewControl('Run and Debug')).closeView();
+        await (await new ActivityBar().getViewControl('Run and Debug'))?.closeView();
         await killTerminal();
         await new EditorView().closeAllEditors();
         await deleteFolderContents(directoryPath);
@@ -203,7 +203,7 @@ async function createProject(driver: WebDriver, command: string): Promise<void> 
  */
 async function openDebugView(): Promise<DebugView> {
     const btn = await new ActivityBar().getViewControl('Run');
-    const debugView = (await btn.openView()) as DebugView;
+    const debugView = (await btn?.openView()) as DebugView;
     return debugView;
 }
 
