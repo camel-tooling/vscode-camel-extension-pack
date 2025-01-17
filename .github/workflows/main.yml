@@ -53,6 +53,9 @@ jobs:
       - name: npm-compile
         run: npm run compile
 
+      - name: Allow unprivileged user namespace (ubuntu)
+        run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+
       - name: UI test
         run: xvfb-run --auto-servernum npm run ui-test
 
