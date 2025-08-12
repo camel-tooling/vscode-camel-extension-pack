@@ -20,7 +20,7 @@ jobs:
       TEST_RESOURCES: test-resources
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install JBang (ubuntu, macOS)
         run: |
