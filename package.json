@@ -62,6 +62,6 @@
 		"chai": "^5.2.1",
 		"glob": "^11.0.3",
 		"mocha": "^11.7.2",
-		"vscode-extension-tester": "^8.16.2"
+		"vscode-extension-tester": "^8.17.0"
 	}
 }
