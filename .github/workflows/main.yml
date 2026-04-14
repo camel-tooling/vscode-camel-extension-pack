@@ -60,14 +60,14 @@ jobs:
         run: xvfb-run --auto-servernum npm run ui-test
 
       - name: Store UI test log
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if: failure() || cancelled()
         with:
           name: uitest-logs
           path: test-resources/settings/logs/*
 
       - name: Store UI Test screenshots
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if: failure() || cancelled()
         with:
           name: uitest-screenshots
