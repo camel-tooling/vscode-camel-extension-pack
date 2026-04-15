@@ -56,6 +56,11 @@
 		"preui-test": "npm run compile",
 		"ui-test": "node ./out/uitest-runner.js"
 	},
+	"overrides": {
+		"cheerio": {
+			"encoding-sniffer": "^1.0.2"
+		}
+	},
 	"devDependencies": {
 		"@types/chai": "^5.2.3",
 		"@types/fs-extra": "^11.0.4",

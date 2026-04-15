@@ -39,16 +39,11 @@ jobs:
       - name: Setup NodeJS 20
         uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 20.19.0
           cache: npm
 
-      - name: Setup dependencies
-        run: |
-          npm install -g typescript @vscode/vsce
-          vsce --version
-
       - name: npm-ci
-        run: npm ci
+        run: npm ci --omit=optional
 
       - name: npm-compile
         run: npm run compile
